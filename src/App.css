@@ -1,0 +1,425 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.App {
+  width: 100%;
+}
+.label {
+  height: 24px;
+  width: 60px;
+  display: flex;
+  padding: 25px;
+}
+
+.navbar  {
+  display: flex;
+  width: 70%;
+  
+}
+.navbar .nav-item{
+  align-items: center;
+  display: flex;
+  margin-left: 380px;
+  position: absolute;
+}
+
+.label .text-wrapper {
+  color: #393771;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: -1px;
+  line-height: 24px;
+  top: 0;
+  padding: 0px;
+  white-space: nowrap;
+  }
+
+  .label .text-wrapper-p {
+    color: #a0a0a3;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: -1px;
+    line-height: 24px;
+    top: 0;
+    white-space: nowrap;
+    }
+
+    .image {
+      height: 67px;
+      width: 191px;
+      
+  }
+  
+  .image .creativise-logo-SVG {
+      height: 67px;
+      left: 0;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      width: 191px;
+  }
+  .navbar .abc {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 380px;
+    margin: 2px;
+}
+
+.abc .box {
+    height: 60px;
+    width: 120px;
+    border-radius: 2px;
+    margin-top: 10px;
+    
+}
+
+.abc .box .rectangle {
+    background-color: #dfdfe2;
+    color: #5552B9;
+    border-radius: 10px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.9px;
+    line-height: 21.6px;
+    position: inherit;
+    width: 120px;
+}
+.abc .label-s{
+  height: 22px;
+  width: 66px;
+  padding: 12px;
+  border: 1px solid #5552b9;
+  border-radius: 10px;
+ 
+  }
+.abc .label-s .text-wrapper-s {
+  color: #5552b9;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  left: 0;
+  text-align: center;
+  letter-spacing: -0.9px;
+  line-height: 21.6px;
+  position: inherit;
+  white-space: nowrap;
+  }
+.abc .box-e {
+    height: 9px;
+    width: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.abc .box-e .ellipse {
+    background-color: #5552b9;
+    border-radius: 4.5px;
+    height: 9px;
+    left: 0;
+    position: inherit;
+    top: 0;
+    width: 9px;
+}
+
+.component:hover {
+  background-color: #3c3a62;
+  cursor: pointer;
+}
+
+.component .text-wrapper {
+  color: #ffffff;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 22px;
+  font-weight: 600;
+  left: 40px;
+  letter-spacing: -1.1px;
+  line-height: 33px;
+  position: absolute;
+  text-align: center;
+  top: 14px;
+  white-space: nowrap;
+}
+
+.macbook-pro {
+  background-color: #ffffff;
+  height: 1251px;
+  overflow: hidden;
+  width: 1700px;
+}
+
+.macbook-pro .overlap-group {
+  height: 1711px;
+  left: -130px;
+  position: relative;
+  top: -460px;
+  width: 100%;
+}
+
+.macbook-pro .ellipse {
+    background-color: #5552b9;
+    border-radius: 280px;
+    filter: blur(158px);
+    height: 860px;
+    left: 90px;
+    position: absolute;
+    top: 250px;
+    width: 560px;
+}
+
+
+.macbook-pro .div {
+  background-color: #a7a3de;
+  border-radius: 936.5px/568px;
+  filter: blur(277px);
+  height: 1136px;
+  left: 487px;
+  position: absolute;
+  top: 70px;
+  width: 1873px;
+}
+
+.macbook-pro .ellipse-2 {
+  background-color: #5552b9;
+  border-radius: 936.5px/478.5px;
+  filter: blur(229px);
+  height: 957px;
+  left: 867px;
+  position: absolute;
+  top: 0;
+  width: 1873px;
+}
+
+.macbook-pro .ellipse-3 {
+  background: linear-gradient(180deg, rgba(85, 82, 185, 0.5) 0%, rgba(130.19, 127.06, 217.81, 0) 100%);
+  border-radius: 335px/340px;
+  filter: blur(168px);
+  height: 680px;
+  left: 130px;
+  position: absolute;
+  top: 212px;
+  width: 670px;
+}
+
+.macbook-pro .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 120px;
+  font-weight: 600;
+  left: 180px;
+  letter-spacing: -9.8px;
+  line-height: 119.4px;
+  position: absolute;
+  text-align: center;
+  top: 675px;
+  width: 1448px;
+}
+
+.macbook-pro .welcome-to {
+  color: #ffffff;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  left: 415px;
+  letter-spacing: -0.95px;
+  line-height: 28.5px;
+  position: absolute;
+  text-align: center;
+  top: 988px;
+  width: 1078px;
+}
+
+.macbook-pro .span {
+  font-weight: 500;
+}
+
+.macbook-pro .text-wrapper-3 {
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+}
+
+.macbook-pro .component-82 {
+  left: 855px !important;
+  position: relative !important;
+  top: 1150px !important;
+}
+
+.Get{
+  display: flex;
+}
+
+.component {
+  background-color: #5552b9;
+  border-radius: 50px;
+  height: 63px;
+  position: relative;
+  width: 198px;
+  left: 730px;
+  top: -550px;
+}
+
+.label-1 {
+  height: 100px;
+  width: 572px;
+}
+
+.label-1 .text-wrapper-1 {
+  color: #5552b9;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 40px;
+  font-weight: 600;
+  left: 100px;
+  letter-spacing: -2px;
+  line-height: 44px;
+  position: relative;
+  top: -150px;
+  width: 572px;
+}
+
+
+.image-f {
+  height: 662px;
+  width: 1161px;
+  margin-left: 700px;
+}
+
+.image-f .macbook-pro-new {
+  height: 710px;
+  left: 90px;
+  object-fit: contain;
+  position: relative;
+  top: -650px;
+  width: 888px;
+}
+
+.label-2{
+  height: 207px;
+  width: 619px;
+}
+
+.label-2 .whether-you-re-a {
+  color: #5552b9;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-size: 21px;
+  font-weight: 400;
+  left: 100px;
+  letter-spacing: -0.95px;
+  line-height: 30.2px;
+  position: relative;
+  top: -110px;
+  width: 619px;
+}
+
+.explore {
+  color: #5552b9;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-size: 21px;
+  font-weight: 600;
+  left: 100px;
+  letter-spacing: -0.95px;
+  line-height: 30.2px;
+  position: relative;
+  top: -90px;
+  width: 619px;
+}
+
+.image-e {
+  left: 115px;
+  position: relative;
+  top: -87px;
+ 
+}
+
+.down {
+  position: relative;
+  top:-500px
+}
+
+.label-4 {
+  height: 194px;
+  width: 811px;
+}
+
+.label-4 .get-the-freedom-to {
+  color: #5552b9;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-size: 80px;
+  font-weight: 700;
+  left: 490px;
+  letter-spacing: -4px;
+  line-height: 88px;
+  position: relative;
+  top: 0;
+  width: 811px;
+}
+
+.label-5 {
+  height: 89px;
+  width: 706px;
+}
+
+.label-5 .text-wrapper {
+  color: #5552b9;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-size: 21px;
+  font-weight: 400;
+  left: 500px;
+  letter-spacing: -0.95px;
+  line-height: 28.5px;
+  position: relative;
+  top: 30px;
+  width: 706px;
+}
+
+
+.componentd {
+  background-color: #5552b9;
+  border-radius: 50px;
+  height: 63px;
+  position: relative;
+  width: 198px;
+  left: 730px;
+  top: 100px;
+}
+
+.componentd:hover {
+  background-color: #3c3a62;
+  cursor: pointer;
+}
+
+.componentd .text-wrapper {
+  color: #ffffff;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 22px;
+  font-weight: 600;
+  left: 40px;
+  letter-spacing: -1.1px;
+  line-height: 33px;
+  position: absolute;
+  text-align: center;
+  top: 14px;
+  white-space: nowrap;
+}
+
+.box {
+  height: 192px;
+  width: 208px;
+}
+
+.box .group {
+  height: 195px;
+  left: 1000px;
+  position: relative;
+  top: 30px;
+  width: 210px;
+}
