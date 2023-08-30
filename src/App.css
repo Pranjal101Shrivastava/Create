@@ -1,10 +1,12 @@
-*{
-  margin:0;
+* {
+  margin: 0;
   padding: 0;
 }
+
 .App {
   width: 100%;
 }
+
 .label {
   height: 24px;
   width: 60px;
@@ -12,12 +14,13 @@
   padding: 25px;
 }
 
-.navbar  {
+.navbar {
   display: flex;
   width: 70%;
-  
+
 }
-.navbar .nav-item{
+
+.navbar .nav-item {
   align-items: center;
   display: flex;
   margin-left: 380px;
@@ -35,74 +38,77 @@
   top: 0;
   padding: 0px;
   white-space: nowrap;
-  }
+}
 
-  .label .text-wrapper-p {
-    color: #a0a0a3;
-    font-family: "Montserrat-SemiBold", Helvetica;
-    font-size: 20px;
-    font-weight: 600;
-    left: 0;
-    letter-spacing: -1px;
-    line-height: 24px;
-    top: 0;
-    white-space: nowrap;
-    }
+.label .text-wrapper-p {
+  color: #a0a0a3;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: -1px;
+  line-height: 24px;
+  top: 0;
+  white-space: nowrap;
+}
 
-    .image {
-      height: 67px;
-      width: 191px;
-      
-  }
-  
-  .image .creativise-logo-SVG {
-      height: 67px;
-      left: 0;
-      object-fit: cover;
-      position: absolute;
-      top: 0;
-      width: 191px;
-  }
-  .navbar .abc {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 380px;
-    margin: 2px;
+.image {
+  height: 67px;
+  width: 191px;
+
+}
+
+.image .creativise-logo-SVG {
+  height: 67px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 191px;
+}
+
+.navbar .abc {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 610px;
+  margin: 2px;
 }
 
 .abc .box {
-    height: 60px;
-    width: 120px;
-    border-radius: 2px;
-    margin-top: 10px;
-    
+  height: 60px;
+  width: 120px;
+  border-radius: 2px;
+  margin-top: 10px;
+
 }
 
 .abc .box .rectangle {
-    background-color: #dfdfe2;
-    color: #5552B9;
-    border-radius: 10px;
-    height: 50px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Montserrat-SemiBold", Helvetica;
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: -0.9px;
-    line-height: 21.6px;
-    position: inherit;
-    width: 120px;
+  background-color: #dfdfe2;
+  color: #5552B9;
+  border-radius: 10px;
+  height: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.9px;
+  line-height: 21.6px;
+  position: inherit;
+  width: 120px;
 }
-.abc .label-s{
+
+.abc .label-s {
   height: 22px;
   width: 66px;
   padding: 12px;
   border: 1px solid #5552b9;
   border-radius: 10px;
- 
-  }
+
+}
+
 .abc .label-s .text-wrapper-s {
   color: #5552b9;
   font-family: "Montserrat-SemiBold", Helvetica;
@@ -114,22 +120,23 @@
   line-height: 21.6px;
   position: inherit;
   white-space: nowrap;
-  }
+}
+
 .abc .box-e {
-    height: 9px;
-    width: 9px;
-    padding-left: 20px;
-    padding-right: 20px;
+  height: 9px;
+  width: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .abc .box-e .ellipse {
-    background-color: #5552b9;
-    border-radius: 4.5px;
-    height: 9px;
-    left: 0;
-    position: inherit;
-    top: 0;
-    width: 9px;
+  background-color: #5552b9;
+  border-radius: 4.5px;
+  height: 9px;
+  left: 0;
+  position: inherit;
+  top: 0;
+  width: 9px;
 }
 
 .component:hover {
@@ -155,7 +162,7 @@
   background-color: #ffffff;
   height: 1251px;
   overflow: hidden;
-  width: 1700px;
+  width: 1728px;
 }
 
 .macbook-pro .overlap-group {
@@ -167,14 +174,14 @@
 }
 
 .macbook-pro .ellipse {
-    background-color: #5552b9;
-    border-radius: 280px;
-    filter: blur(158px);
-    height: 860px;
-    left: 90px;
-    position: absolute;
-    top: 250px;
-    width: 560px;
+  background-color: #5552b9;
+  border-radius: 280px;
+  filter: blur(158px);
+  height: 860px;
+  left: 90px;
+  position: absolute;
+  top: 250px;
+  width: 560px;
 }
 
 
@@ -254,7 +261,7 @@
   top: 1150px !important;
 }
 
-.Get{
+.Get {
   display: flex;
 }
 
@@ -295,14 +302,15 @@
 
 .image-f .macbook-pro-new {
   height: 710px;
-  left: 90px;
+  left: 141px;
   object-fit: contain;
+  overflow: hidden;
   position: relative;
   top: -650px;
   width: 888px;
 }
 
-.label-2{
+.label-2 {
   height: 207px;
   width: 619px;
 }
@@ -337,12 +345,12 @@
   left: 115px;
   position: relative;
   top: -87px;
- 
+
 }
 
 .down {
   position: relative;
-  top:-500px
+  top: -500px
 }
 
 .label-4 {
@@ -418,8 +426,87 @@
 
 .box .group {
   height: 195px;
-  left: 1000px;
+  left: 1013px;
   position: relative;
   top: 30px;
   width: 210px;
 }
+
+
+
+.box2 {
+  height: 91px;
+  width: 102px;
+}
+
+.box2 .group2 {
+  height: 91px;
+  left: 280px;
+  position: relative;
+  top: -590px;
+  width: 102px;
+}
+
+.box2 .overlap-group2 {
+  height: 91px;
+  position: relative;
+}
+
+.box2 .rectangle2 {
+  background-color: #252525;
+  height: 71px;
+  left: 21px;
+  position: absolute;
+  top: 10px;
+  transform: rotate(-20deg);
+  width: 71px;
+}
+
+.box2 .div2 {
+  background-color: #5552b9;
+  height: 71px;
+  left: 10px;
+  position: absolute;
+  top: 10px;
+  transform: rotate(-20deg);
+  width: 71px;
+}
+
+.box3 .group3 {
+  width: 960px;
+  position: relative;
+  top: -505px;
+  left: 74px;
+}
+
+.box4 .group4 {
+  width: 182px;
+  position: relative;
+  top: -1040px;
+}
+
+.box5 .group5 {
+  width: 350px;
+  position: relative;
+  top: -1378px;
+  left: 1376px;
+}
+
+.box6 .group6 {
+  width: 191px;
+  position: relative;
+  top: -1280px;
+  left: 1440px;
+}
+
+ .rectangle7 {
+  height: 610px;
+  width: 1806px;
+  background-color: #5552b9;
+  height: 580px;
+  left: 0;
+  position: relative;
+  top: -1035px;
+  width: 1728px;
+}
+
